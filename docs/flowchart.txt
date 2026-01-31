@@ -1,0 +1,70 @@
+# ______PRJECT STRUCTURE TEMPLATE______:
+
+project_name/
+│
+├── README.md
+├── requirements.txt
+├── .gitignore
+│
+├── src/
+│   ├── main.py
+│   │
+│   ├── modules/
+│   │   ├── __init__.py
+│   │   ├── core.py
+│   │   ├── models.py
+│   │   ├── services.py
+│   │   └── utils.py
+│
+├── tests/
+│   ├── test_core.py
+│   ├── test_models.py
+│   └── test_services.py
+│
+├── data/
+│   ├
+│   └── library_books.json
+│
+└── docs/
+    ├── uml_diagram.txt
+    └── flowchart.txt
+
+
+_________________ Current Project Layout (Library-Checkout-System-REDO) ____________________
+
+library-checkout-system-REDO/
+│
+├── README.md
+├── requirements.txt
+├── .gitignore
+├── .env
+├── pytest.ini
+|
+├── .pytest_cache/
+|   ├── V
+|   ├──.gitignore
+|   ├── CACHEDIR.TAG
+|   ├── README.md
+|
+├── src/
+│   ├── main.py
+|   ├── __init__.py
+|   ├── config.py
+│   │
+│   ├── modules/
+│   │   ├── __init__.py
+│   │   ├── models.py
+│   │   └── utils.py
+│
+├── tests/
+|   ├── __pycache__/
+│   ├── test_main.py
+│   ├── test_models.py
+│   └── test_sample.py
+│
+├── data/
+│   └── library_books.json
+│
+└── docs/
+    ├── uml_diagram.txt
+    └── flowchart.txt
