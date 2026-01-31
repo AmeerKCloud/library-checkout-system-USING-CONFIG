@@ -1,4 +1,4 @@
 import json
-from src.config import DATA_DIR
+from config import DATA_DIR
 
 print(DATA_DIR)
